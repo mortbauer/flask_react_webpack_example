@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Input, Panel, Button, Navbar, NavBrand, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Input, Panel, Button, Navbar, NavbarBrand, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 import  '../styles/app.less'
 import * as jQuery from 'jquery'
 import * as io from 'socket.io-client'
@@ -46,7 +46,7 @@ class App extends React.Component{
         return (
             <div className="container-fluid">
                 <Navbar>
-                    <NavBrand>Flask ReactJS</NavBrand>
+                    <NavbarBrand>Flask ReactJS</NavbarBrand>
                     <Nav>
                         <NavItem eventKey={1} href="#">with a hint of Socket.IO and ZeroMQ</NavItem>
                     </Nav>
