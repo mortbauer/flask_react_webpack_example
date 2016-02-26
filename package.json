@@ -23,7 +23,7 @@
     "webpack": "^1.12.2"
   },
   "scripts": {
-    "serve": "venv/bin/python app.py",
+    "serve": "python app.py",
     "build": "webpack",
     "watch": "webpack --progress --colors --devtool sourcemap --watch",
     "test": "mocha --compilers jsx:babel/register --recursive --require test/setup.jsx"
