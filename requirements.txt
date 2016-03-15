@@ -2,6 +2,5 @@ coloredlogs
 Flask
 Flask-SocketIO
 gevent
-gevent-socketio
-gevent-websocket
+python-socketio
 zmq

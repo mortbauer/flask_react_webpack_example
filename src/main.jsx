@@ -55,6 +55,7 @@ class App extends React.Component{
                 <div className="row">
                     <Panel header="monitor in" bsStyle="success">
                         <h1> Martin says: {this.state.msg}</h1>
+                        <h1> connection is: {this.state.connected}</h1>
                     </Panel>
                 </div>
             </div>
